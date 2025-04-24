@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <!-- FONT FOR NAVBAR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- LANDING PAGE FONT -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Navbar -->
+     <header>
+        <div class="flex justify-between pl-10 pr-10 pt-5 pb-5 lg:pl-7 lg:pr-7 lg:pt-2 lg:pb-2">
+            <div class="flex gap-20 items-center">
+        <a class="text-2xl font-[900] lg:text-3xl">Logo<sup class="text-base">®</sup></a>
+        <div class="hidden md:inline text-sm font-bold lg:text-base" style="font-family: 'Inter', sans-serif; font-weight: 700;">CPT / RSA-19:48</div>
+    </div>
+        <nav style="font-family: 'Inter', sans-serif; font-weight: 700;" class="hidden text-sm md:flex space-x-6 items-center lg:text-base" >
+            <a href="" class="">WORK</a>
+            <span>&#8226</span>
+            <a href="" class="">ABOUT</a>
+            <a href="" class="">SERVICES</a>
+            <a href="" class="">CONTACT</a>
+        </nav>
+        <button onclick="toggleMenu()" class="text-base font-semibold  md:hidden" style="font-family: 'Inter', sans-serif; font-weight: 700;">MENU</button>
+        </div>
+     </header>
+
+     <!-- Landing page section -->
+     <main class="px-[36px] md:px-[52px] ">
+
+      <Section class="min-h-[calc(100dvh-68px)]">
+        <div class="pb-10">
+        <div>
+          <h1 class="font-black leading-none tracking-tight text-[22vw] pt-14 pb-6 md:text-[22vw] lg:text-[23vw] xl:text-[24vw]">
+            JOBFIT..
+          </h1>
+        </div>
+        <div class="pb-8 "></div>
+          <div class="flex pb-8">     
+        <p style="font-family: 'Raleway', sans-serif;" class="font-[500] text-[33px] max-w-xl md:text-[45px] md:max-w-lg leading-[33px] md:leading-[47px]">
+          Crafting AI-optimized resumes that align with your dream job.
+        </p>
+        </div>
+        <div class="flex justify-between pb-8">
+        <a href="#" class="text-sm font-semibold underline underline-offset-2 ">LEARN MORE ABOUT US</a><span class="hidden lg:flex text-sm font-semibold">(SCROLL)</span>
+          </div>
+        </div>
+        <div class="flex flex-col gap-5 pb-[60px] lg:hidden">
+          <div class="flex justify-between">
+            <h3 class=" font-[400]">
+              Scoring Journey
+              <br>
+              Showcase (25-26)
+            </h3>
+            <img alt="arrow" loading="lazy" width="17" height="17" decoding="async" data-nimg="1" class="md:hidden" style="color: transparent" src="/img/arrow.svg">
+
+          </div>
+          <video class="rounded-[6px] w-full md:w-[361px] overflow-hidden" autoplay muted loop>
+            <source src="vid/stockimg.mp4" type="video/mp4">
+             Your browser does not support the video tag.
+             </video>
+        </div>
+
+      <!-- Work section -->
+      <hr>
+        <div class="pt-[34px] pb-[54px]">
+          <div><h2 class="font-extrabold text-6xl">HOW IT WORKS..</h2></div>
+          <div class="pt-[24px] pb-[26px]"><p>Illustrates the step-by-step process of using the ATS Score Checker tool to analyze resumes.</p></div>
+          
+          
+          <div class="">
+            <div class="flex justify-between items-center">
+          <div class="flex flex-col items-center">
+            <div class="bg-black h-[50px] w-[1px]"></div>
+            <div class="h-[40px] w-[40px] bg-black rounded-full text-white flex justify-center items-center">1</div>
+            <div class="bg-black h-[50px] w-[1px]"></div>
+          </div>
+
+          <div class="h-[20%] w-[80%] bg-[#e9ecef] rounded-[10px] p-[15px] flex items-center justify-between">
+            <div>
+            <div><h3 class="text-[25px] font-extrabold tracking-tighter">Step 1</h3></div>
+            <div><p class="text-[15px] text-[#495057]">Uplpad the resume you want to analyze</p></div>
+          </div>
+            <div> <img alt="arrow" loading="lazy" width="24" height="24" decoding="async" data-nimg="1"  style="color: transparent" src="/img/arrow.svg"></div>
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center">
+          <div class="flex flex-col items-center">
+            <div class="bg-black h-[50px] w-[1px]"></div>
+            <div class="h-[40px] w-[40px] bg-black rounded-full text-white flex justify-center items-center">2</div>
+            <div class="bg-black h-[50px] w-[1px]"></div>
+          </div>
+
+          <div class="h-[20%] w-[80%] bg-[#e9ecef] rounded-[10px] p-[15px] flex items-center justify-between">
+            <div>
+            <div><h3 class="text-[25px] font-extrabold tracking-tighter">Step 2</h3></div>
+            <div><p class="text-[15px] text-[#495057]">The tool will scan the resume for keywords and formatting.</p></div>
+            </div>
+            <div> <img alt="arrow" loading="lazy" width="24" height="24" decoding="async" data-nimg="1"  style="color: transparent" src="/img/arrow.svg"></div>
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center">
+          <div class="flex flex-col items-center">
+            <div class="bg-black h-[50px] w-[1px]"></div>
+            <div class="h-[40px] w-[40px] bg-black rounded-full text-white flex justify-center items-center">3</div>
+            <div class="bg-black h-[50px] w-[1px]"></div>
+          </div>
+
+          <div class="h-[20%] w-[80%] bg-[#e9ecef] rounded-[10px] p-[15px] flex items-center justify-between">
+            <div>
+            <div><h3 class="text-[25px] font-extrabold tracking-tighter">Step 3</h3></div>
+            <div><p class="text-[15px] text-[#495057]">Receive a detailed report with the ATS score and suggestions for improvement.</p></div>
+            </div>
+            <div> <img alt="arrow" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color: transparent" src="/img/arrow.svg"></div>
+          </div>
+        </div>
+
+        </div>
+    </div>
+
+
+        <!-- Fullscreen Black Menu Overlay -->
+          
+          <div id="mobileMenu" class="hidden fixed inset-0 bg-black text-white z-50 pl-6 pr-6 pt-3 pb-3">
+            <div class="flex justify-between items-center p-4">
+              <div class="text-xl font-bold">Logo<sup class="text-xs">®</sup></div>
+              <button onclick="toggleMenu()" class="text-sm font-medium">CLOSE</button>
+            </div>
+        
+            <div class="p-10 space-y-6 text-4xl font-bold text-gray-400">
+              <div class="text-white flex items-center gap-1">
+                WORK <sup class="text-xs align-top">16</sup>
+              </div>
+              <div>ABOUT</div>
+              <div>SERVICES</div>
+              <div>CONTACT</div>
+            </div>
+        
+            <div class="absolute bottom-4 left-4 right-4 flex justify-between text-xs text-white">
+              <span>ATS / 15 - 24</span>
+              <span>AI-driven ATS scoring</span>
+            </div>
+          </div>
+          <hr>
+        </Section>
+          
+        <!-- About Section - 2 -->
+        <section class="min-h-[calc(220dvh-1px)]">
+          <div class="pt-6 md:pt-11">
+              <div>
+                <h2 class="text-[48px] font-[700] md:text-[120px] uppercase leading-[42px] md:leading-[98px] overflow-hidden">URBANJAVA STUDIO</h2>
+              </div>
+              <div class="flex justify-between pt-[16px] pb-[32px] md:pt-[32px] md:pb-[64px]">
+                <div class="relative w-full md:max-w-[50vw]">
+                  <p class=" flex flex-row text-lg md:text-[32px] leading-[18px] md:leading-[34px] overflow-hidden">
+                    Holistic boutique experiences that express the heart of yourbrand Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <span class="hidden lg:flex text-base font-semibold">(SCROLL)</span>
+                  
+              </div>
+              <img src="img/about-hero.svg" alt="image" class="w-full pb-16 rounded-md">
+          </div>
+
+          <hr>
+
+          <div class="pb-[64px]">
+            <div class="mt-4">
+
+          <div class="flex gap-2 items-center font-semibold ">
+            <div class=""><span>&#8226</span></div><p class="text-sm tracking-tight">A / 01</p>
+          </div>
+        </div>
+
+          <div class="pt-[31px] flex flex-col gap-10 md:flex-row">
+          <div class="inline-block text-xl md:text-[32px] leading-[20px] md:leading-[34px] font-normal">
+            <h3>From a Cape Town-based startup to a global design powerhouse.</h>
+          </div>
+
+          <div class="md:max-w-[65ch] lg:max-w-[90ch]">
+            <p class="text-[15px] pb-3">Urbanjava Studio is a dynamic design studio specializing in brand identity, social media, graphic design, and digital experiences. We build strong relationships with brands, helping them stand out in crowded markets. Our approach combines audacity and precision, where relentless creativity meets pinpoint focus.</p>
+            <p class="text-[15px] pb-3">Driven by our passion for innovation, we continuously explore new horizons while leveraging our well-established expertise. As pioneers in our field, we prioritize our clients' core objectives, setting the pace for the industry. Our commitment is unwavering: we empower companies to fully harness their branding potential and navigate the ever-evolving landscape of digital, social media, and marketing.</p>
+          </div> 
+          <div class="md:hidden"></div>   
+        </div>
+        </div>
+        
+        <hr>
+
+        <div class="pb-[64px]">
+          <div class="pt-8 pb-2">
+
+            <div class="flex gap-2 items-center font-semibold ">
+              <div class=""><span>&#8226</span></div><p class="text-sm tracking-tight">A / 02</p>
+            </div>
+          </div>
+
+          <div class="flex gap-0.5 items-center  ">
+            <div class="text-7xl"><span>&#8226</span></div><p class="text-xl uppercase font-extrabold md:text-xl">CREATIVE DIRECTOR</p>
+          </div>
+
+          <div class="flex flex-col gap-24 md:flex-row">
+          <div class="md:max-w-[40ch] lg:max-w-[50%]">
+            <p class="text-base pb-3">Urbanjava Studio is a dynamic design studio specializing in brand identity, social media, graphic design, and digital experiences. We build strong relationships with brands, helping them stand out in crowded markets. Our approach combines audacity and precision, where relentless creativity meets pinpoint focus.</p>
+            <p class="text-base pb-3">Driven by our passion for innovation, we continuously explore new horizons while leveraging our well-established expertise. As pioneers in our field, we prioritize our clients' core objectives, setting the pace for the industry. Our commitment is unwavering: we empower companies to fully harness their branding potential and navigate the ever-evolving landscape of digital, social media, and marketing.</p>
+          </div> 
+          
+          <div class="flex">
+            <img src="img/a2.svg" alt="image">
+          </div>
+        </div>
+
+        </div>
+
+        <hr>
+
+        <div class="">
+          <div class="pt-8 pb-2">
+            <div class="flex gap-2 items-center font-semibold ">
+              <div class=""><span>&#8226</span></div><p class="text-sm tracking-tight">A / 03</p>
+            </div>
+          </div>
+        
+          <div class="text-3xl leading-8 md:text-[55px] md:leading-[48px] font-bold pt-14 pb-16 uppercase overflow-hidden">
+            <p>SINCE OUR INCEPTION IN 2015, WE HAVE HONED OUR SKILLSACROSS DIVERSE SECTORS, EMBODYING VERSATILITY, ANDPROFOUND EXPERTISE.</p>
+          </div>
+
+        </div>
+
+        <hr>
+        </section>
+
+        <!-- Services section - 3 -->
+        <section class="min-h-[calc(80dvh-1px)]">
+          <div class="pb-[64px]">
+          <div class="flex justify-between items-center py-8">
+          <div><h3 class="font-bold text-[22px] lg:text-[42px] uppercase">(SERVICES)</h3></p></div>
+          <img src="img/arrow-down_strok.svg" alt="arrow" width="33" height="33" class="font-extrabold stroke-60">
+          </div>
+          <hr>
+
+          <div class="pt-8 pb-2">
+            <div class="flex gap-2 items-center font-semibold ">
+              <div class=""><span>&#8226</span></div><p class="text-sm tracking-tight">A / 01</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-18 md:flex-row">
+          <div class="left-side flex flex-col justify-between md:w-[55%]">
+            <div>
+          <div class="flex gap-0.5 items-center  ">
+            <div class="text-7xl"><span>&#8226</span></div><p class="text-xl uppercase font-extrabold md:text-xl">CREATIVE DIRECTOR</p>
+          </div>
+
+          <div class="pt-3 pb-8 ">
+            <p class="pb-3">At UJS©, visibility isn’t enough. We delve deep to create narratives that captivate audiences. Moving beyond mere design, we breathe life into brands, striking a balance between strategy and creativity. </p>
+          </div>
+
+          <a href="#"class="inline-block bg-gray-300 text-black text-[10px] uppercase px-6 py-1 rounded-full hover:bg-black hover:text-white transition-colors duration-300">
+          Learn More
+          </a>
+        </div>
+
+        <div class="hidden  md:block">
+          <p class="text-sm font-semibold uppercase">Services</p>
+          <p class="text-sm">Research / Strategy / Design</p>
+        </div>
+          </div>
+
+          <div>
+            <img class="w-full h-full" src="img/img2.webp" alt="">
+          </div>
+        </div>
+
+        </div>
+        <hr>
+        <!-- This code is for further the increase the services section in future -->
+        <!-- <div class="pb-[64px]">
+          <div class="pt-8 pb-2">
+            <div class="flex gap-2 items-center font-semibold ">
+              <div class=""><span>&#8226</span></div><p class="text-sm tracking-tight">A / 01</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-18 md:flex-row">
+          <div class="left-side flex flex-col justify-between md:w-[55%]">
+            <div>
+          <div class="flex gap-0.5 items-center  ">
+            <div class="text-7xl"><span>&#8226</span></div><p class="text-xl uppercase font-extrabold md:text-xl">CREATIVE DIRECTOR</p>
+          </div>
+
+          <div class="pt-3 pb-8 ">
+            <p class="pb-3">At UJS©, visibility isn’t enough. We delve deep to create narratives that captivate audiences. Moving beyond mere design, we breathe life into brands, striking a balance between strategy and creativity. </p>
+          </div>
+
+          <a href="#"class="inline-block bg-gray-300 text-black text-[10px] uppercase px-6 py-1 rounded-full hover:bg-black hover:text-white transition-colors duration-300">
+          Learn More
+          </a>
+        </div>
+
+        <div class="hidden  md:block">
+          <p class="text-sm font-semibold uppercase">Services</p>
+          <p class="text-sm">Research / Strategy / Design</p>
+        </div>
+          </div>
+
+          <div>
+            <img class="w-full h-full" src="img/img2.webp" alt="">
+          </div>
+        </div>
+
+        </div>
+        <hr> -->
+
+        </section>
+
+        <!-- DEVELOPER + Contact Section -->
+         <section class="min-h-[calc(120dvh-1px)]">
+          <div class="pt-[34px] pb-[54px]">
+            <div><h2 class="font-extrabold text-[42px] overflow-x-hidden md:text-[110px]">DEVELOPERS.</h2></div>
+            <div class="pt-[8px] pb-[26px]"><p>Illustrates the step-by-step process of using the ATS Score Checker tool to analyze resumes.</p></div>
+          
+            <div class="flex flex-col gap-6 md:flex flex-row flex-wrap justify-between py-4" >
+
+            <div class="h-[25%] w-full bg-[#e9ecef] rounded-[10px] p-[15px] flex items-center justify-between md:w-[48%] lg:w-[30%]">
+              <div class="flex gap-6 justify-between items-center">
+                <div class="min-h-[80px] min-w-[80px]"><img class="w-24 h-24 rounded-full object-cover grayscale" src="img/pk1.jpg" alt="Circular Image"></div>
+              <div class="">
+              <div><h3 class="text-[20px] font-extrabold ">Paras Kamdar</h3></div>
+              <div><p class="text-[15px] text-[#495057]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsa. Provident, corporis maiores. Veritatis non mollitia.</p></div>
+              </div>
+              </div>
+            </div>
+
+            <div class="h-[25%] w-full bg-[#e9ecef] rounded-[10px] p-[15px] flex items-center justify-between md:w-[48%] lg:w-[30%]">
+              <div class="flex gap-6 justify-between items-center">
+                <div class="min-h-[80px] min-w-[80px]"><img class="w-24 h-24 rounded-full object-cover grayscale" src="img/pk2.jpg" alt="Circular Image"></div>
+              <div class="">
+              <div><h3 class="text-[20px] font-extrabold ">Paras Kamdar</h3></div>
+              <div><p class="text-[15px] text-[#495057]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsa. Provident, corporis maiores. Veritatis non mollitia.</p></div>
+              </div>
+              </div>
+            </div>
+
+            <div class="h-[25%] w-full bg-[#e9ecef] rounded-[10px] p-[15px] flex items-center justify-between lg:w-[30%]">
+              <div class="flex gap-6 justify-between items-center">
+                <div class="min-h-[80px] min-w-[80px]"><img class="w-24 h-24 rounded-full object-cover grayscale" src="img/pk3.jpg" alt="Circular Image"></div>
+              <div class="">
+              <div><h3 class="text-[20px] font-extrabold ">Paras Kamdar</h3></div>
+              <div><p class="text-[15px] text-[#495057]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsa. Provident, corporis maiores. Veritatis non mollitia.</p></div>
+              </div>
+              </div>
+            </div>
+
+          </div>
+          </div>
+          <hr>
+
+          <div class="pb-[134px]">
+
+            <div class="pt-6 md:pt-11">
+              <div><h2 class="text-[42px] font-bold md:text-[120px] uppercase leading-[42px] font-extrabold md:leading-[98px] overflow-hidden">let’s work togther</h2></div>
+              <div class="flex justify-between pt-[16px] pb-[32px] md:pt-[32px] md:pb-[64px]">
+                <div class="text-lg md:text-[32px] leading-[20px] md:leading-[34px] overflow-hidden font-[400px] md:max-w-[70%]"><p>Submit your project details below and we’ll get back to you.</p></div>
+                <div><span class="hidden md:flex text-base font-semibold">(SCROLL)</span></div>
+              </div>
+            </div>
+ 
+            <form action="" class="flex flex-col flex-wrap gap-10 md:gap-6 ">
+              <div class="flex flex-col gap-10 md:flex md:flex-row md:justify-between md:gap-3 md:pb-[40px]">
+              <div class="md:w-[47%]" ><input placeholder= "company name" type ="text" class="border-b-[1px] border-gray-200 border-solid outline-none focus:border-b-[1px] focus:border-black w-full "></div>
+              <div class="md:w-[47%]"><input placeholder= "company name" type ="text" class="border-b-[1px] border-gray-200 border-solid outline-none focus:border-b-[1px] focus:border-black w-full"></div>
+            </div>
+            <div class="flex flex-col gap-10 md:flex md:flex-row justify-between gap-3 md:pb-[40px]">
+              <div class="md:w-[47%]"><input placeholder= "company name" type ="text" class="border-b-[1px] border-gray-200 border-solid outline-none focus:border-b-[1px] focus:border-black w-full"></div>
+              <div class="md:w-[47%]"><input placeholder= "company name" type ="text" class="border-b-[1px] border-gray-200 border-solid outline-none focus:border-b-[1px] focus:border-black w-full"></div>
+            </div>
+              <div><textarea placeholder="About Project" name="" id="" class="border-b-[1px] border-gray-200 border-solid outline-none focus:border-b-[1px] focus:border-black w-full"></textarea></div>
+              <button type="submit" class="bg-gray-300 px-6 py-1 max-w-[120px] rounded-3xl text-[12px] mt-[36px] lg:text-base">SUBMIT</button>
+            </form>
+
+          </div>
+          <hr>
+         </section>
+      </main>
+      <footer class="min-h-[calc(50dvh-1px)]">
+        <div class="px-9 pt-3 pb-10 ">
+
+          <div class="flex flex-col sm:flex-row justify-between items-start">
+            <!-- Start A Project -->
+            <div class="flex items-center gap-2 text-base font-bold">
+              <div><span class="font-extrabold">&#8226</span></div>
+              <div><p class="tracking-tight">START A PROJECT</p></div>
+            </div>
+          
+            <!-- Contact Info -->
+            <div class="uppercase text-base font-bold leading-5 py-8 sm:py-0">
+              <div><p>ATS@SAMPLE.GMAIL.COM</p></div>
+              <div><p>+91 99988 87776</p></div>
+            </div>
+          
+            <!-- Navigation Links -->
+            <div class="flex justify-between md:gap-5">
+              <div class="flex flex-col text-base font-bold leading-8">
+                <a href="">WORK</a>
+                <a href="">ABOUT</a>
+                <a href="">SERVICES</a>
+                <a href="">CONTACT</a>
+              </div>
+              <div class="flex flex-col text-base font-bold leading-8">
+                <a href="">GITHUB</a>
+                <a href="">LINKEDIN</a>
+                <a href="">INSTAGRAM</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-around pt-12 pb-12 text-[16vw] font-extrabold sm:text-[18vw] sm:pt-0 sm:pb-0">
+            <h2>STD.30-25</h2>
+          </div>
+
+          <div class="flex justify-between text-base font-bold uppercase">
+            <div><p class="">UJS©2024</p></div>
+            <div><p class="tracking-tighter">brand focused studio</p></div>
+          </div>
+        </div>
+      </footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
